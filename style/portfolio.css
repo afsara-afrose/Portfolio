@@ -34,6 +34,10 @@ nav a{
     font-size: 20px;
 }
 
+nav a:hover{
+    background-color: #FD6E0A;
+}
+
 .nav-title{
    font-weight: 800;
    font-size: 45px;
@@ -48,4 +52,40 @@ nav a{
     padding: 15px 35px;
     border: none;
 
+}
+
+/* about banner */
+
+header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 200px;
+    
+}
+
+.banner-content{
+    width: 580px;
+}
+.banner img{
+    width:500px;
+
+}
+.greeting{
+    font-size:45px;
+    font-weight: bold;
+    color:#474747;
+}
+.banner-title{
+    font-weight: bolder;
+    font-size: 85px;
+
+}
+.banner-text{
+    font-weight: 18px;
+    color:#757575
 }
